@@ -1,0 +1,23 @@
+name: up
+main: up\up
+author: 플그러
+version: 1.0.0
+api:
+- 3.0.0
+
+commands:
+ up:
+  description: /up 
+  aliases: [/up]
+  
+  commands:
+ /desc:
+  permission: up.cmd.use
+  description: desc
+  aliases: [desc]
+  
+  commands:
+ uplau:
+  permission: up.cmd.use
+  description: lau
+  aliases: [lau,/uplau]
