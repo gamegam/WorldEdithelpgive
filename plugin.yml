@@ -15,9 +15,3 @@ commands:
   permission: up.cmd.use
   description: desc
   aliases: [desc]
-  
-  commands:
- uplau:
-  permission: up.cmd.use
-  description: lau
-  aliases: [lau,/uplau]
